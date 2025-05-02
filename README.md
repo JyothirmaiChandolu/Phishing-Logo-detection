@@ -1,10 +1,3 @@
-gmail-logo-detector/
-├── extension/          # Chrome extension source code
-│   ├── popup.html
-│   ├── popup.js
-│   ├── content.js
-│   └── manifest.json
-├── backend/            # Flask backend with model
-│   ├── app.py
-│   └── model/
-└── README.md
+This project focuses on building a security system that detects phishing attempts through email logos and URLs. The system is integrated into a Chrome extension that scans incoming emails in Gmail, analyzing both logos and URLs for signs of fraud. Using a pre-trained ResNet50 deep learning model, the system classifies logos as either genuine or fake. Additionally, it inspects embedded URLs, checking them against known phishing databases and using heuristic analysis to identify potentially malicious websites.
+
+The goal is to provide users with real-time alerts, warning them of phishing emails, and ultimately improving email security by automating the detection of fraudulent logos and URLs. By combining logo detection with URL analysis, this solution offers a comprehensive approach to preventing phishing attacks.
