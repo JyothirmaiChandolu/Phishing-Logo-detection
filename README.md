@@ -1,0 +1,2 @@
+- **Fake logos**: Images of logos that are suspected to be used in phishing attacks.
+- **Genuine logos**: Authentic company logos.
